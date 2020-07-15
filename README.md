@@ -25,7 +25,7 @@ The main class of GISS. Every other method is a member of this class.
 Stores any python object or file object in GISS
 
 - `key`: The name of the object. This should be unique.
-- `obj`: A python object or file object to store.
+- `obj`: A python object or file object to store. File objects stored this way must be open in `rb` mode.
 
 **Returns:** None
 

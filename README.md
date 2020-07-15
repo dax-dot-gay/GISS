@@ -42,3 +42,7 @@ Deletes a stored object.
 - `key`: Key of the object to delete.
 
 **Returns:** None
+
+
+### Warning
+Do not delete the `._registry` file that the program generates in the folder. This will unlink all your files from their keys and locations, and it will be near-impossible to reassemble them.
